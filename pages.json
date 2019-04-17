@@ -1,0 +1,94 @@
+{
+    "pages" : [
+        //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+        {
+            "path" : "pages/index",
+            "style" : {
+                "navigationBarTitleText" : "门店列表"
+            }
+        },
+		{
+            "path" : "pages/home/home",
+            "style" : {
+                "navigationBarTitleText" : "首页",
+				"app-plus" : {
+					"titleNView" :  false
+				}
+            }
+        },
+        {
+            "path" : "pages/shopMall/index",
+            "style" : {
+                "navigationBarTitleText" : "点餐页面"
+            }
+        },
+		{
+		    "path" : "pages/API/request-payment/request-payment",
+		    "style" : {
+		        "navigationBarTitleText" : "买单"
+// 				"app-plus" : {
+// 					"titleNView" :  false
+// 				}
+		    }
+		},
+		{
+			"path": "pages/my/index",
+			"style": {
+				"navigationBarTitleText": "我的"
+			}
+		},
+		{
+			"path": "pages/check/index",
+			"style": {
+				"navigationBarTitleText": "check"   
+			}
+		},
+		{
+			"path": "pages/components/tabBar",
+			"style": {
+				"navigationBarTitleText": "tabar"   
+			}
+		}
+    ],
+// 	"tabBar" : {
+// 	    "color" : "#7A7E83",
+// 	    "selectedColor" : "#3cc51f",
+// 	    "borderStyle" : "black",
+// 	    "backgroundColor" : "#ffffff",
+// 	    "list" : [{
+// 	            "pagePath" : "pages/home/home",
+// 	            "iconPath" : "static/images/icon_home.png",
+// 	            "selectedIconPath" : "static/images/icon_home.png",
+// 	            "text" : "首页"
+// 	        },
+// 	        {
+// 	            "pagePath" : "pages/shopMall/index",
+// 	            "iconPath" : "static/images/icon_order.png",
+// 	            "selectedIconPath" : "static/images/icon_order.png",
+// 	            "text" : "点餐"
+// 	        },
+// 	        {
+// 	            "pagePath" : "pages/API/request-payment/request-payment",
+// 	            "iconPath" : "static/images/icon_money.png",
+// 	            "selectedIconPath" : "static/images/icon_money.png",
+// 	            "text" : "买单"
+// 	        },
+// 	        {
+// 	            "pagePath" : "pages/my/index",
+// 	            "iconPath" : "static/images/icon_my.png",
+// 	            "selectedIconPath" : "static/images/icon_my.png",
+// 	            "text" : "我的"
+// 	        }]
+// 	},
+    "globalStyle" : {
+        "navigationBarTextStyle" : "black",
+        "navigationBarTitleText" : "uni-app",
+        "navigationBarBackgroundColor" : "#F8F8F8",
+        "backgroundColor" : "#F8F8F8"
+    },
+	"permission": {
+		"scope.userLocation": {
+		"desc": "你的位置信息将用于小程序位置接口的效果展示"
+		}
+	}
+}
