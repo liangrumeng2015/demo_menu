@@ -1,0 +1,2 @@
+<template name="7d825ed8"><view class="_div {{ h[ 0 ].rcl }}">暂无赠品页面</view></template>
+<template is="7d825ed8" data="{{ ...$root['0'], $root }}"/>

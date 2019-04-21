@@ -1,0 +1,57 @@
+
+.my-content{
+	padding:0 10px;
+}
+.title{
+	line-height: 50px;
+}
+.box{
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	line-height: 50px;
+}
+.box .part-name{
+	-webkit-box-flex: 9;
+	-webkit-flex: 9;
+	    -ms-flex: 9;
+	        flex: 9;
+}
+.box .part-code{
+	-webkit-box-flex: 2;
+	-webkit-flex: 2;
+	    -ms-flex: 2;
+	        flex: 2;
+}
+.box .part-code ._img{
+	padding-top: 10px;
+	width: 32px;
+	height: 32px;
+}
+.flex-item {
+	width: 31%;
+	margin:1%;
+	height: auto;
+	text-align: center;
+	display:inline-block;
+}
+.flex-item  ._span{
+	height: 25px;
+	display: block;
+}
+.flex-item ._img{
+	width:32px;
+	height: 32px;
+}
+.icon-my{
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	vertical-align: middle;
+	margin-right: 5px;
+}
+.name-icon{
+	display: inline-block;
+}
+

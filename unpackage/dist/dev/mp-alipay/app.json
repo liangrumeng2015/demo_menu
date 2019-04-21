@@ -1,0 +1,58 @@
+{
+  "pages": [
+    "pages/index",
+    "pages/home/home",
+    "pages/shopMall/index",
+    "pages/API/get-user-info/get-user-info",
+    "pages/API/choose-location/choose-location",
+    "pages/API/login/login",
+    "pages/API/request-payment/request-payment",
+    "pages/my/index",
+    "pages/check/index",
+    "pages/components/tabBar",
+    "pages/my/gifts",
+    "pages/my/score",
+    "pages/my/money",
+    "pages/my/coupon",
+    "pages/my/orderList",
+    "pages/my/address",
+    "pages/my/add_address",
+    "pages/my/card"
+  ],
+  "window": {
+    "defaultTitle": "uni-app",
+    "titleBarColor": "#FFFFFF",
+    "backgroundColor": "#000000"
+  },
+  "tabBar": {
+    "textColor": "#7A7E83",
+    "selectedColor": "#3cc51f",
+    "backgroundColor": "#ffffff",
+    "items": [
+      {
+        "pagePath": "pages/home/home",
+        "name": "首页",
+        "icon": "./static/images/icon_home.png",
+        "activeIcon": "./static/images/icon_home.png"
+      },
+      {
+        "pagePath": "pages/shopMall/index",
+        "name": "点餐",
+        "icon": "./static/images/icon_order.png",
+        "activeIcon": "./static/images/icon_order.png"
+      },
+      {
+        "pagePath": "pages/check/index",
+        "name": "买单",
+        "icon": "./static/images/icon_money.png",
+        "activeIcon": "./static/images/icon_money.png"
+      },
+      {
+        "pagePath": "pages/my/index",
+        "name": "我的",
+        "icon": "./static/images/icon_my.png",
+        "activeIcon": "./static/images/icon_my.png"
+      }
+    ]
+  }
+}

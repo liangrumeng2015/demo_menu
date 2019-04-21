@@ -1,0 +1,2 @@
+<template name="26c21f05"><view class="_div {{ h[ 0 ].rcl }}"><view class="_view">您还没有创建地址</view><view class="_view footer-bar"><view class="_view">导入微信地址</view><view class="_view" data-cid="{{ _c || c }}" data-hid="{{ 6 }}" onTap="_pe">新增地址</view></view></view></template>
+<template is="26c21f05" data="{{ ...$root['0'], $root }}"/>

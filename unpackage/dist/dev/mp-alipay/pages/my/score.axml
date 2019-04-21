@@ -1,0 +1,2 @@
+<template name="7c355c3a"><view class="_div {{ h[ 0 ].rcl }}"><view class="_view score-card"><view class="_view card-con"><image class="_img" src="../../static/images/icon_score.png"></image><label class="_span">0</label></view></view><view class="_view con"><label class="_span">积分明细</label><view class="_ul"><view class="_li"></view></view></view></view></template>
+<template is="7c355c3a" data="{{ ...$root['0'], $root }}"/>

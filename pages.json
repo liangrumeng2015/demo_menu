@@ -2,45 +2,81 @@
     "pages" : [
         //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
         {
-            "path" : "pages/index",
-            "style" : {
-                "navigationBarTitleText" : "门店列表"
-            }
+            "path" : "pages/index",// 门店列表
+			"style" : {
+			    "navigationBarTitleText" : "custom"
+			}
         },
 		{
             "path" : "pages/home/home",
             "style" : {
-                "navigationBarTitleText" : "首页",
-				"app-plus" : {
-					"titleNView" :  false
-				}
+                "navigationBarTitleText" : "首页"
             }
         },
         {
             "path" : "pages/shopMall/index",
             "style" : {
-                "navigationBarTitleText" : "点餐页面"
+                "navigationBarTitleText" : "custom",
+				"app-plus": {
+					"bounce": "none", //关闭窗口回弹效果
+					"titleNView": {
+						"buttons": [ //原生标题栏按钮配置,
+							{
+								"text": "分享",//原生标题栏增加分享按钮，点击事件可通过页面的 onNavigationBarButtonTap 函数进行监听
+								"type":"share",
+								"fontSize": "18px"
+							}
+						]
+					}
+				},
+				"h5": {
+					"titleNView": {
+						"buttons": [ //原生标题栏按钮配置,
+							{
+								"text": "123",//原生标题栏增加分享按钮，点击事件可通过页面的 onNavigationBarButtonTap 函数进行监听
+								"fontSrc":"./static/images/icon_add.png",
+								"fontSize": "18px",
+								"float": "left"
+							}
+						]
+					}
+				}
             }
         },
+		{
+		    "path" : "pages/API/get-user-info/get-user-info",
+		    "style" : {
+		        "navigationBarTitleText" : ""
+		    }
+		},
+		{
+		    "path" : "pages/API/choose-location/choose-location",
+		    "style" : {
+		        "navigationBarTitleText" : ""
+		    }
+		},
+		{
+		    "path" : "pages/API/login/login",
+		    "style" : {
+		        "navigationBarTitleText" : ""
+		    }
+		},
 		{
 		    "path" : "pages/API/request-payment/request-payment",
 		    "style" : {
 		        "navigationBarTitleText" : "买单"
-// 				"app-plus" : {
-// 					"titleNView" :  false
-// 				}
 		    }
 		},
 		{
 			"path": "pages/my/index",
 			"style": {
-				"navigationBarTitleText": "我的"
+				"navigationBarTitleText": "个人中心"
 			}
 		},
 		{
 			"path": "pages/check/index",
 			"style": {
-				"navigationBarTitleText": "check"   
+				"navigationBarTitleText": "买单"   
 			}
 		},
 		{
@@ -48,38 +84,86 @@
 			"style": {
 				"navigationBarTitleText": "tabar"   
 			}
+		},
+		{
+			"path": "pages/my/gifts",
+			"style": {
+				"navigationBarTitleText": "赠品"
+			}
+		},
+		{
+			"path": "pages/my/score",
+			"style": {
+				"navigationBarTitleText": "我的积分"
+			}
+		},
+		{
+			"path": "pages/my/money",
+			"style": {
+				"navigationBarTitleText": "账户余额"   
+			}
+		},
+		{
+			"path": "pages/my/coupon",
+			"style": {
+				"navigationBarTitleText": "优惠券"   
+			}
+		},
+		{
+			"path": "pages/my/orderList",
+			"style": {
+				"navigationBarTitleText": "订单列表"   
+			}
+		},
+		{
+			"path": "pages/my/address",
+			"style": {
+				"navigationBarTitleText": "我的地址"   
+			}
+		},
+		{
+			"path": "pages/my/add_address",
+			"style": {
+				"navigationBarTitleText": "添加收货地址"
+			}
+		},
+		{
+			"path": "pages/my/card",
+			"style": {
+				"navigationBarTitleText": "我的会员卡"
+			}
 		}
     ],
-// 	"tabBar" : {
-// 	    "color" : "#7A7E83",
-// 	    "selectedColor" : "#3cc51f",
-// 	    "borderStyle" : "black",
-// 	    "backgroundColor" : "#ffffff",
-// 	    "list" : [{
-// 	            "pagePath" : "pages/home/home",
-// 	            "iconPath" : "static/images/icon_home.png",
-// 	            "selectedIconPath" : "static/images/icon_home.png",
-// 	            "text" : "首页"
-// 	        },
-// 	        {
-// 	            "pagePath" : "pages/shopMall/index",
-// 	            "iconPath" : "static/images/icon_order.png",
-// 	            "selectedIconPath" : "static/images/icon_order.png",
-// 	            "text" : "点餐"
-// 	        },
-// 	        {
-// 	            "pagePath" : "pages/API/request-payment/request-payment",
-// 	            "iconPath" : "static/images/icon_money.png",
-// 	            "selectedIconPath" : "static/images/icon_money.png",
-// 	            "text" : "买单"
-// 	        },
-// 	        {
-// 	            "pagePath" : "pages/my/index",
-// 	            "iconPath" : "static/images/icon_my.png",
-// 	            "selectedIconPath" : "static/images/icon_my.png",
-// 	            "text" : "我的"
-// 	        }]
-// 	},
+	"tabBar" : {
+	    "color" : "#7A7E83",
+	    "selectedColor" : "#3cc51f",
+	    "borderStyle" : "black",
+	    "backgroundColor" : "#ffffff",
+	    "list" : [{
+	            "pagePath" : "pages/home/home",
+	            "iconPath" : "static/images/icon_home.png",
+	            "selectedIconPath" : "static/images/icon_home.png",
+	            "text" : "首页"
+	        },
+	        {
+	            "pagePath" : "pages/shopMall/index",
+	            "iconPath" : "static/images/icon_order.png",
+	            "selectedIconPath" : "static/images/icon_order.png",
+	            "text" : "点餐"
+	        },
+	        {
+	            "pagePath" : "pages/check/index",
+	            "iconPath" : "static/images/icon_money.png",
+	            "selectedIconPath" : "static/images/icon_money.png",
+	            "text" : "买单"
+	        },
+	        {
+	            "pagePath" : "pages/my/index",
+	            "iconPath" : "static/images/icon_my.png",
+	            "selectedIconPath" : "static/images/icon_my.png",
+	            "text" : "我的"
+	        }]
+	},
     "globalStyle" : {
         "navigationBarTextStyle" : "black",
         "navigationBarTitleText" : "uni-app",

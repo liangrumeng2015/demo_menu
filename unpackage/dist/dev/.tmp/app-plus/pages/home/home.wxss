@@ -1,0 +1,16 @@
+
+.flex-item {
+	width: 45%;
+	margin:2%;
+	height: 200rpx;
+	text-align: center;
+	line-height: 200rpx;
+	display:inline-block;
+}
+.left-part{
+	background: pink;
+}
+.right-part{
+	background:red;
+}
+

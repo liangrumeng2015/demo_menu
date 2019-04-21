@@ -1,0 +1,34 @@
+
+.score-card{
+	width: 95%;
+	height: 120px;
+	line-height: 120px;
+	background: #EDC979;
+	border-radius: 8px;
+	margin:0 auto;
+	margin-top: 10px;
+	text-align: center;
+}
+.card-con{
+	width: 100%;
+	line-height: 120px!important;
+}
+.card-con ._span{
+	font-size: 34px;
+	font-weight: bold;
+	color:#775429;
+	padding-left: 10px;
+}
+.card-con ._img{
+	width: 32px;
+	height: 32px;
+	vertical-align:text-bottom
+}
+.con{
+	margin:0 10px;
+	margin-top: 20px;
+}
+._ul{
+	list-style: none;
+}
+

@@ -1,0 +1,282 @@
+
+.address{
+	padding:10px 15px;
+	font-size: 18px;
+	background: #FFFFFF;
+	margin-bottom: 2px;
+}
+.address ._img{
+	width: 28px;
+	height: 28px;
+	margin-right: 5px;
+	vertical-align: middle;
+}
+.shop-title{
+	font-size: 25px;
+	text-align: center;
+	background: #46B2FF;
+	margin-top: -1px;
+	color:#fff;
+	font-size: 26px;
+}
+.shop-title ._img{
+	width: 32px;
+	height: 32px;
+	vertical-align: middle;
+	margin-left: 10px;
+}
+.uni-row{
+	background:rgba(70,178,255,1) ;
+	padding-top: 20px;
+	margin-top: -1px;
+}
+.flex-item {
+	width: 45%;
+	margin:2%;
+	height: 60px;
+	text-align: center;
+	line-height: 60px!important;
+	display:inline-block;
+}
+.left-part,.right-part{
+	background: rgba(255,255,255,.3);
+	border-radius: 10px;
+	color:#fff;
+	font-size: 20px;
+}
+.left-part ._img,.right-part ._img{
+	width: 53px;
+	height: 32px;
+	vertical-align: middle;
+}
+.right-part ._img{
+	width: 32px;
+	margin-right: 10px;
+}
+.tabbar-nav{
+	width: 100%;
+	position: fixed;
+	bottom:0;
+	left: 0;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	background:#fff;
+	border-top: 1px solid #C8C7CC;
+	padding-top: 5px;
+}
+.tabbar-nav .flex-item1{
+	width:25%;
+	text-align: center;
+}
+.tabbar-nav .flex-item1 ._span{
+	display:block;
+}
+.tabbar-nav .flex-item1 ._img{
+	width:28px;
+	height: 28px;
+}
+.icon-back{
+	width: 40px;
+	height: 40px;
+}
+.card-box{
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	background: #fff;
+	padding:0 15px;
+	margin-bottom: 10px;
+}
+.card-box .card-title{
+	width: 100%;
+	display: block;
+	font-size: 16px;
+	font-weight: bold;
+	color:#000;
+}
+.card-box ._span{
+	color:#999999;
+	line-height: 24px;
+}
+.my-coupon{
+	padding:10px;
+	padding-left: 5px;
+	-webkit-box-flex: 6;
+	-webkit-flex: 6;
+	    -ms-flex: 6;
+	        flex: 6;
+	font-size: 12px;
+	position: relative;
+	border-right: 1px solid #F5F5F5;
+}
+.my-coupon ._img,.my-card ._img{
+	width:32px;
+	height: 32px;
+	position: absolute;
+	right:10px;
+	top:10px;
+}
+.my-card ._img{
+	right: 5px;
+}
+.my-card{
+	padding:10px;
+	-webkit-box-flex: 6;
+	-webkit-flex: 6;
+	    -ms-flex: 6;
+	        flex: 6;
+	position: relative;
+}
+.free-coupon{
+	padding:0 20px;
+	padding-bottom: 10px;
+	-webkit-box-sizing: border-box;
+	        box-sizing: border-box;
+	height: auto;
+	background: #fff;
+}
+.free-coupon .free{
+	font-size: 20px;
+	display: block;
+	font-weight: bold;
+	padding:10px 0;
+}
+.coupon01{
+	width:100%;
+	background: #F5F5F5;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	border-radius: 8px;
+	margin-top: 10px;
+}
+.coupon01 .coupon-img{
+	-webkit-box-flex: 3;
+	-webkit-flex: 3;
+	    -ms-flex: 3;
+	        flex: 3;
+	color:#fff;
+	font-size: 14px;
+	text-align: center;
+	background:#FD6472;
+	line-height: 100px!important;
+	border-radius: 8px 0 0 8px;
+}
+.coupon01 .coupon-img ._i{
+	font-size: 20px;
+	font-style: normal;
+	display: inline-block;
+}
+.coupon01 .coupon-txt{
+	-webkit-box-flex: 7;
+	-webkit-flex: 7;
+	    -ms-flex: 7;
+	        flex: 7;
+	text-indent: 16px;
+	-webkit-box-sizing: border-box;
+	        box-sizing: border-box;
+}
+.coupon01 .coupon-btn{
+	-webkit-box-flex: 2;
+	-webkit-flex: 2;
+	    -ms-flex: 2;
+	        flex: 2;
+}
+.coupon01 .coupon-btn ._span{
+	width:90%;
+	height: 24px;
+	display: block;
+	line-height: 24px;
+	text-align: center;
+	border-radius: 15px;
+	border:1px solid #FF0000;
+	color:#FF0000;
+	margin-top: 35px;
+}
+.coupon01 ._p{
+	line-height: 25px;
+}
+.coupon01 .txt{
+	color: #000;
+	padding-top: 12px;
+}
+.coupon01 .use{
+	color: #FF0000;
+}
+.coupon01 .time{
+	color: #9A9A9A;
+}
+.con-card{
+	margin:0 20px;
+}
+.card{
+	position: relative;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	border-radius: 8px;
+	color:#FFFFFF;
+	padding-left: 20px;
+	overflow: hidden;
+	margin-bottom: 20px;
+}
+.blue{
+	background:#5578CA;
+}
+.yellow{
+	background: #E4B138;
+}
+.card .trangle{
+	width: 120px;
+	height: 30px;
+	display: block;
+	text-align: center;
+	line-height: 30px;
+	background: #FFDB32;
+	color:#000;
+	-webkit-transform: rotate(45deg);
+	    -ms-transform: rotate(45deg);
+	        transform: rotate(45deg);
+	position: absolute;
+	right: -32px;
+	top: 10px;
+}
+.card-left{
+	-webkit-box-flex: 9;
+	-webkit-flex: 9;
+	    -ms-flex: 9;
+	        flex: 9;
+}
+.card-left .card-name{
+	font-size: 14px;
+	padding-top: 30px;
+	padding-bottom: 20px;
+}
+.card-left .card-value{
+	font-size: 22px;
+	padding-bottom: 30px;
+}
+.card-btn{
+	-webkit-box-flex: 3;
+	-webkit-flex: 3;
+	    -ms-flex: 3;
+	        flex: 3;
+}
+.card-btn ._span{
+	width:75px;
+	height: 30px;
+	display: block;
+	text-align: center;
+	line-height: 30px!important;
+	border-radius: 20px;
+	background: rgba(255,255,255,.4);
+	position: absolute;
+	bottom: 20px;
+	right: 10px;
+}
+

@@ -1,7 +1,7 @@
 <template>
 	<view class="page">
 		<view class="uni-list">
-			<view class="uni-list-cell" hover-class="uni-list-cell-hover" v-for="(value,key) in list" :key="key">
+			<view class="uni-list-cell" v-for="(value,key) in list" :key="key">
 				<view class="uni-list-cell-navigate uni-navigate-right uni-media-list" @click="toPages(key)">
 					<view class="uni-media-list-logo">
 						<image v-if="showImg" :src="value.img"></image>
@@ -44,9 +44,14 @@
 				this.showImg = true;
 			}, 400)
 		},
+		onShow(){
+			uni.setNavigationBarTitle({
+				title: '门店列表'
+			});
+		},
 		methods:{
 			toPages(key){
-				uni.navigateTo({
+				uni.switchTab({
 					url: './home/home'
 				});
 				uni.setStorageSync('address',this.list[key].address);

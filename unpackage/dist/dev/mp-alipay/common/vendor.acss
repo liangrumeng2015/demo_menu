@@ -1,0 +1,66 @@
+
+view{
+	line-height: 18px!important;
+}
+.tabbar-nav{
+	width: 100%;
+	position: fixed;
+	bottom:0;
+	left: 0;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	background:#fff;
+	border-top: 1px solid #C8C7CC;
+	padding-top: 5px;
+}
+.tabbar-nav .flex-item1{
+	width:25%;
+	text-align: center;
+}
+.tabbar-nav .flex-item1 ._span{
+	display:block;
+}
+.tabbar-nav .flex-item1 ._img{
+	width:28px;
+	height: 28px;
+}
+
+
+.rmbLogo {
+    font-size: 40rpx;
+}
+._button {
+    background-color: #007aff;
+    color: #ffffff;
+}
+.uni-h1.uni-center {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: row;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: end;
+    -webkit-align-items: flex-end;
+        -ms-flex-align: end;
+            align-items: flex-end;
+}
+.price {
+    border-bottom: 1px solid #eee;
+    width: 200rpx;
+    height: 80rpx;
+    padding-bottom: 4rpx;
+}
+.ipaPayBtn {
+    margin-top: 30rpx;
+}
+
